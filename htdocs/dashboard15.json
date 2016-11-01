@@ -1,0 +1,894 @@
+{
+	"version": 1,
+	"allow_edit": true,
+	"plugins": [],
+	"panes": [
+		{
+			"title": "area1",
+			"width": 1,
+			"row": {
+				"1": 1
+			},
+			"col": {
+				"1": 1
+			},
+			"col_width": "1",
+			"widgets": [
+				{
+					"type": "gauge",
+					"settings": {
+						"animate": false,
+						"title": "Area1",
+						"value": "function sum( obj ) {\n  var sum = 0;\n  var count= 0;\n  for( var el in obj ) {\n    if( obj.hasOwnProperty( el ) ) {\n      sum += parseFloat( obj[el] );\n      count++;\n    }\n  }\n  return sum*100/count;\n}\n\nreturn summed = sum( datasources[\"crisis1-data\"][\"area1\"] ).toFixed(0);",
+						"units": "%",
+						"min_value": "0",
+						"max_value": "100"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member1",
+						"value": "datasources[\"crisis1-data\"][\"area1\"][\"member1\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member2",
+						"value": "datasources[\"crisis1-data\"][\"area1\"][\"member2\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member3",
+						"value": "datasources[\"crisis1-data\"][\"area1\"][\"member3\"]"
+					}
+				},
+				{
+					"type": "sparkline",
+					"settings": {
+						"animate": false,
+						"value": [
+							"datasources[\"crisis1-data\"]"
+						]
+					}
+				}
+			]
+		},
+		{
+			"title": "area2",
+			"width": 1,
+			"row": {
+				"1": 1
+			},
+			"col": {
+				"1": 2
+			},
+			"col_width": "1",
+			"widgets": [
+				{
+					"type": "gauge",
+					"settings": {
+						"animate": false,
+						"title": "Area2",
+						"value": "function sum( obj ) {\n  var sum = 0;\n  var count= 0;\n  for( var el in obj ) {\n    if( obj.hasOwnProperty( el ) ) {\n      sum += parseFloat( obj[el] );\n      count++;\n    }\n  }\n  return sum*100/count;\n}\n\nreturn summed = sum( datasources[\"crisis1-data\"][\"area2\"] ).toFixed(0);",
+						"units": "%",
+						"min_value": "0",
+						"max_value": "100"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member1",
+						"value": "datasources[\"crisis1-data\"][\"area2\"][\"member1\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member2",
+						"value": "datasources[\"crisis1-data\"][\"area2\"][\"member2\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member3",
+						"value": "datasources[\"crisis1-data\"][\"area2\"][\"member3\"]"
+					}
+				},
+				{
+					"type": "sparkline",
+					"settings": {
+						"animate": false,
+						"value": [
+							"datasources[\"crisis1-data\"]"
+						]
+					}
+				}
+			]
+		},
+		{
+			"title": "area3",
+			"width": 1,
+			"row": {
+				"1": 1
+			},
+			"col": {
+				"1": 3
+			},
+			"col_width": "1",
+			"widgets": [
+				{
+					"type": "gauge",
+					"settings": {
+						"animate": false,
+						"title": "Area3",
+						"value": "function sum( obj ) {\n  var sum = 0;\n  var count= 0;\n  for( var el in obj ) {\n    if( obj.hasOwnProperty( el ) ) {\n      sum += parseFloat( obj[el] );\n      count++;\n    }\n  }\n  return sum*100/count;\n}\n\nreturn summed = sum( datasources[\"crisis1-data\"][\"area3\"] ).toFixed(0);",
+						"units": "%",
+						"min_value": "0",
+						"max_value": "100"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member1",
+						"value": "datasources[\"crisis1-data\"][\"area3\"][\"member1\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member2",
+						"value": "datasources[\"crisis1-data\"][\"area3\"][\"member2\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member3",
+						"value": "datasources[\"crisis1-data\"][\"area3\"][\"member3\"]"
+					}
+				},
+				{
+					"type": "sparkline",
+					"settings": {
+						"animate": false,
+						"value": [
+							"datasources[\"crisis1-data\"]"
+						]
+					}
+				}
+			]
+		},
+		{
+			"title": "area4",
+			"width": 1,
+			"row": {
+				"1": 1
+			},
+			"col": {
+				"1": 4
+			},
+			"col_width": "1",
+			"widgets": [
+				{
+					"type": "gauge",
+					"settings": {
+						"animate": false,
+						"title": "Area4",
+						"value": "function sum( obj ) {\n  var sum = 0;\n  var count= 0;\n  for( var el in obj ) {\n    if( obj.hasOwnProperty( el ) ) {\n      sum += parseFloat( obj[el] );\n      count++;\n    }\n  }\n  return sum*100/count;\n}\n\nreturn summed = sum( datasources[\"crisis1-data\"][\"area4\"] ).toFixed(0);",
+						"units": "%",
+						"min_value": "0",
+						"max_value": "100"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member1",
+						"value": "datasources[\"crisis1-data\"][\"area4\"][\"member1\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member2",
+						"value": "datasources[\"crisis1-data\"][\"area4\"][\"member2\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member3",
+						"value": "datasources[\"crisis1-data\"][\"area4\"][\"member3\"]"
+					}
+				},
+				{
+					"type": "sparkline",
+					"settings": {
+						"animate": false,
+						"value": [
+							"datasources[\"crisis1-data\"]"
+						]
+					}
+				}
+			]
+		},
+		{
+			"title": "area5",
+			"width": 1,
+			"row": {
+				"1": 1
+			},
+			"col": {
+				"1": 5
+			},
+			"col_width": "1",
+			"widgets": [
+				{
+					"type": "gauge",
+					"settings": {
+						"animate": false,
+						"title": "Area5",
+						"value": "function sum( obj ) {\n  var sum = 0;\n  var count= 0;\n  for( var el in obj ) {\n    if( obj.hasOwnProperty( el ) ) {\n      sum += parseFloat( obj[el] );\n      count++;\n    }\n  }\n  return sum*100/count;\n}\n\nreturn summed = sum( datasources[\"crisis1-data\"][\"area5\"] ).toFixed(0);",
+						"units": "%",
+						"min_value": "0",
+						"max_value": "100"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member1",
+						"value": "datasources[\"crisis1-data\"][\"area5\"][\"member1\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member2",
+						"value": "datasources[\"crisis1-data\"][\"area5\"][\"member2\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member3",
+						"value": "datasources[\"crisis1-data\"][\"area5\"][\"member3\"]"
+					}
+				},
+				{
+					"type": "sparkline",
+					"settings": {
+						"animate": false,
+						"value": [
+							"datasources[\"crisis1-data\"]"
+						]
+					}
+				}
+			]
+		},
+		{
+			"title": "area6",
+			"width": 1,
+			"row": {
+				"1": 1
+			},
+			"col": {
+				"1": 6
+			},
+			"col_width": "1",
+			"widgets": [
+				{
+					"type": "gauge",
+					"settings": {
+						"animate": false,
+						"title": "Area6",
+						"value": "function sum( obj ) {\n  var sum = 0;\n  var count= 0;\n  for( var el in obj ) {\n    if( obj.hasOwnProperty( el ) ) {\n      sum += parseFloat( obj[el] );\n      count++;\n    }\n  }\n  return sum*100/count;\n}\n\nreturn summed = sum( datasources[\"crisis1-data\"][\"area6\"] ).toFixed(0);",
+						"units": "%",
+						"min_value": "0",
+						"max_value": "100"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member1",
+						"value": "datasources[\"crisis1-data\"][\"area6\"][\"member1\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member2",
+						"value": "datasources[\"crisis1-data\"][\"area6\"][\"member2\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member3",
+						"value": "datasources[\"crisis1-data\"][\"area6\"][\"member3\"]"
+					}
+				},
+				{
+					"type": "sparkline",
+					"settings": {
+						"animate": false,
+						"value": [
+							"datasources[\"crisis1-data\"]"
+						]
+					}
+				}
+			]
+		},
+		{
+			"title": "area7",
+			"width": 1,
+			"row": {
+				"1": 1
+			},
+			"col": {
+				"1": 7
+			},
+			"col_width": "1",
+			"widgets": [
+				{
+					"type": "gauge",
+					"settings": {
+						"animate": false,
+						"title": "Area7",
+						"value": "function sum( obj ) {\n  var sum = 0;\n  var count= 0;\n  for( var el in obj ) {\n    if( obj.hasOwnProperty( el ) ) {\n      sum += parseFloat( obj[el] );\n      count++;\n    }\n  }\n  return sum*100/count;\n}\n\nreturn summed = sum( datasources[\"crisis1-data\"][\"area7\"] ).toFixed(0);",
+						"units": "%",
+						"min_value": "0",
+						"max_value": "100"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member1",
+						"value": "datasources[\"crisis1-data\"][\"area7\"][\"member1\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member2",
+						"value": "datasources[\"crisis1-data\"][\"area7\"][\"member2\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member3",
+						"value": "datasources[\"crisis1-data\"][\"area7\"][\"member3\"]"
+					}
+				},
+				{
+					"type": "sparkline",
+					"settings": {
+						"animate": false,
+						"value": [
+							"datasources[\"crisis1-data\"]"
+						]
+					}
+				}
+			]
+		},
+		{
+			"title": "area8",
+			"width": 1,
+			"row": {
+				"1": 1
+			},
+			"col": {
+				"1": 8
+			},
+			"col_width": "1",
+			"widgets": [
+				{
+					"type": "gauge",
+					"settings": {
+						"animate": false,
+						"title": "Area8",
+						"value": "function sum( obj ) {\n  var sum = 0;\n  var count= 0;\n  for( var el in obj ) {\n    if( obj.hasOwnProperty( el ) ) {\n      sum += parseFloat( obj[el] );\n      count++;\n    }\n  }\n  return sum*100/count;\n}\n\nreturn summed = sum( datasources[\"crisis1-data\"][\"area8\"] ).toFixed(0);",
+						"units": "%",
+						"min_value": "0",
+						"max_value": "100"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member1",
+						"value": "datasources[\"crisis1-data\"][\"area8\"][\"member1\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member2",
+						"value": "datasources[\"crisis1-data\"][\"area8\"][\"member2\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member3",
+						"value": "datasources[\"crisis1-data\"][\"area8\"][\"member3\"]"
+					}
+				},
+				{
+					"type": "sparkline",
+					"settings": {
+						"animate": false,
+						"value": [
+							"datasources[\"crisis1-data\"]"
+						]
+					}
+				}
+			]
+		},
+		{
+			"title": "area9",
+			"width": 1,
+			"row": {
+				"1": 1
+			},
+			"col": {
+				"1": 9
+			},
+			"col_width": "1",
+			"widgets": [
+				{
+					"type": "gauge",
+					"settings": {
+						"animate": false,
+						"title": "Area9",
+						"value": "function sum( obj ) {\n  var sum = 0;\n  var count= 0;\n  for( var el in obj ) {\n    if( obj.hasOwnProperty( el ) ) {\n      sum += parseFloat( obj[el] );\n      count++;\n    }\n  }\n  return sum*100/count;\n}\n\nreturn summed = sum( datasources[\"crisis1-data\"][\"area9\"] ).toFixed(0);",
+						"units": "%",
+						"min_value": "0",
+						"max_value": "100"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member1",
+						"value": "datasources[\"crisis1-data\"][\"area9\"][\"member1\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member2",
+						"value": "datasources[\"crisis1-data\"][\"area9\"][\"member2\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member3",
+						"value": "datasources[\"crisis1-data\"][\"area9\"][\"member3\"]"
+					}
+				},
+				{
+					"type": "sparkline",
+					"settings": {
+						"animate": false,
+						"value": [
+							"datasources[\"crisis1-data\"]"
+						]
+					}
+				}
+			]
+		},
+		{
+			"title": "area10",
+			"width": 1,
+			"row": {
+				"1": 1
+			},
+			"col": {
+				"1": 10
+			},
+			"col_width": "1",
+			"widgets": [
+				{
+					"type": "gauge",
+					"settings": {
+						"animate": false,
+						"title": "Area10",
+						"value": "function sum( obj ) {\n  var sum = 0;\n  var count= 0;\n  for( var el in obj ) {\n    if( obj.hasOwnProperty( el ) ) {\n      sum += parseFloat( obj[el] );\n      count++;\n    }\n  }\n  return sum*100/count;\n}\n\nreturn summed = sum( datasources[\"crisis1-data\"][\"area10\"] ).toFixed(0);",
+						"units": "%",
+						"min_value": "0",
+						"max_value": "100"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member1",
+						"value": "datasources[\"crisis1-data\"][\"area10\"][\"member1\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member2",
+						"value": "datasources[\"crisis1-data\"][\"area10\"][\"member2\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member3",
+						"value": "datasources[\"crisis1-data\"][\"area10\"][\"member3\"]"
+					}
+				},
+				{
+					"type": "sparkline",
+					"settings": {
+						"animate": false,
+						"value": [
+							"datasources[\"crisis1-data\"]"
+						]
+					}
+				}
+			]
+		},
+		{
+			"title": "area11",
+			"width": 1,
+			"row": {
+				"1": 1
+			},
+			"col": {
+				"1": 11
+			},
+			"col_width": "1",
+			"widgets": [
+				{
+					"type": "gauge",
+					"settings": {
+						"animate": false,
+						"title": "Area11",
+						"value": "function sum( obj ) {\n  var sum = 0;\n  var count= 0;\n  for( var el in obj ) {\n    if( obj.hasOwnProperty( el ) ) {\n      sum += parseFloat( obj[el] );\n      count++;\n    }\n  }\n  return sum*100/count;\n}\n\nreturn summed = sum( datasources[\"crisis1-data\"][\"area11\"] ).toFixed(0);",
+						"units": "%",
+						"min_value": "0",
+						"max_value": "100"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member1",
+						"value": "datasources[\"crisis1-data\"][\"area11\"][\"member1\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member2",
+						"value": "datasources[\"crisis1-data\"][\"area11\"][\"member2\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member3",
+						"value": "datasources[\"crisis1-data\"][\"area11\"][\"member3\"]"
+					}
+				},
+				{
+					"type": "sparkline",
+					"settings": {
+						"animate": false,
+						"value": [
+							"datasources[\"crisis1-data\"]"
+						]
+					}
+				}
+			]
+		},
+		{
+			"title": "area12",
+			"width": 1,
+			"row": {
+				"1": 1
+			},
+			"col": {
+				"1": 12
+			},
+			"col_width": "1",
+			"widgets": [
+				{
+					"type": "gauge",
+					"settings": {
+						"animate": false,
+						"title": "Area12",
+						"value": "function sum( obj ) {\n  var sum = 0;\n  var count= 0;\n  for( var el in obj ) {\n    if( obj.hasOwnProperty( el ) ) {\n      sum += parseFloat( obj[el] );\n      count++;\n    }\n  }\n  return sum*100/count;\n}\n\nreturn summed = sum( datasources[\"crisis1-data\"][\"area12\"] ).toFixed(0);",
+						"units": "%",
+						"min_value": "0",
+						"max_value": "100"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member1",
+						"value": "datasources[\"crisis1-data\"][\"area12\"][\"member1\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member2",
+						"value": "datasources[\"crisis1-data\"][\"area12\"][\"member2\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member3",
+						"value": "datasources[\"crisis1-data\"][\"area12\"][\"member3\"]"
+					}
+				},
+				{
+					"type": "sparkline",
+					"settings": {
+						"animate": false,
+						"value": [
+							"datasources[\"crisis1-data\"]"
+						]
+					}
+				}
+			]
+		},
+		{
+			"title": "area13",
+			"width": 1,
+			"row": {
+				"1": 1
+			},
+			"col": {
+				"1": 13
+			},
+			"col_width": "1",
+			"widgets": [
+				{
+					"type": "gauge",
+					"settings": {
+						"animate": false,
+						"title": "Area13",
+						"value": "function sum( obj ) {\n  var sum = 0;\n  var count= 0;\n  for( var el in obj ) {\n    if( obj.hasOwnProperty( el ) ) {\n      sum += parseFloat( obj[el] );\n      count++;\n    }\n  }\n  return sum*100/count;\n}\n\nreturn summed = sum( datasources[\"crisis1-data\"][\"area13\"] ).toFixed(0);",
+						"units": "%",
+						"min_value": "0",
+						"max_value": "100"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member1",
+						"value": "datasources[\"crisis1-data\"][\"area13\"][\"member1\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member2",
+						"value": "datasources[\"crisis1-data\"][\"area13\"][\"member2\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member3",
+						"value": "datasources[\"crisis1-data\"][\"area13\"][\"member3\"]"
+					}
+				},
+				{
+					"type": "sparkline",
+					"settings": {
+						"animate": false,
+						"value": [
+							"datasources[\"crisis1-data\"]"
+						]
+					}
+				}
+			]
+		},
+		{
+			"title": "area14",
+			"width": 1,
+			"row": {
+				"1": 1
+			},
+			"col": {
+				"1": 14
+			},
+			"col_width": "1",
+			"widgets": [
+				{
+					"type": "gauge",
+					"settings": {
+						"animate": false,
+						"title": "Area14",
+						"value": "function sum( obj ) {\n  var sum = 0;\n  var count= 0;\n  for( var el in obj ) {\n    if( obj.hasOwnProperty( el ) ) {\n      sum += parseFloat( obj[el] );\n      count++;\n    }\n  }\n  return sum*100/count;\n}\n\nreturn summed = sum( datasources[\"crisis1-data\"][\"area14\"] ).toFixed(0);",
+						"units": "%",
+						"min_value": "0",
+						"max_value": "100"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member1",
+						"value": "datasources[\"crisis1-data\"][\"area14\"][\"member1\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member2",
+						"value": "datasources[\"crisis1-data\"][\"area14\"][\"member2\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member3",
+						"value": "datasources[\"crisis1-data\"][\"area14\"][\"member3\"]"
+					}
+				},
+				{
+					"type": "sparkline",
+					"settings": {
+						"animate": false,
+						"value": [
+							"datasources[\"crisis1-data\"]"
+						]
+					}
+				}
+			]
+		},
+		{
+			"title": "area15",
+			"width": 1,
+			"row": {
+				"1": 1
+			},
+			"col": {
+				"1": 15
+			},
+			"col_width": "1",
+			"widgets": [
+				{
+					"type": "gauge",
+					"settings": {
+						"animate": false,
+						"title": "Area15",
+						"value": "function sum( obj ) {\n  var sum = 0;\n  var count= 0;\n  for( var el in obj ) {\n    if( obj.hasOwnProperty( el ) ) {\n      sum += parseFloat( obj[el] );\n      count++;\n    }\n  }\n  return sum*100/count;\n}\n\nreturn summed = sum( datasources[\"crisis1-data\"][\"area15\"] ).toFixed(0);",
+						"units": "%",
+						"min_value": "0",
+						"max_value": "100"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member1",
+						"value": "datasources[\"crisis1-data\"][\"area15\"][\"member1\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member2",
+						"value": "datasources[\"crisis1-data\"][\"area15\"][\"member2\"]"
+					}
+				},
+				{
+					"type": "indicator",
+					"settings": {
+						"animate": false,
+						"title": "member3",
+						"value": "datasources[\"crisis1-data\"][\"area15\"][\"member3\"]"
+					}
+				},
+				{
+					"type": "sparkline",
+					"settings": {
+						"animate": false,
+						"value": [
+							"datasources[\"crisis1-data\"]"
+						]
+					}
+				}
+			]
+		}
+	],
+	"datasources": [
+		{
+			"name": "greeting",
+			"type": "JSON",
+			"settings": {
+				"url": "http://localhost:8080/greeting",
+				"use_thingproxy": false,
+				"refresh": 5,
+				"method": "GET",
+				"name": "greeting"
+			}
+		},
+		{
+			"name": "clock",
+			"type": "clock",
+			"settings": {
+				"refresh": 1
+			}
+		},
+		{
+			"name": "crisis1-data",
+			"type": "JSON",
+			"settings": {
+				"url": "/crisis1-data.json",
+				"use_thingproxy": false,
+				"refresh": 10,
+				"method": "GET",
+				"name": "crisis1-data"
+			}
+		}
+	],
+	"columns": 5
+}

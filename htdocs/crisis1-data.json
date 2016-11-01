@@ -4,12 +4,402 @@
   "note": "hackers attack",
   "area1": {
     "member1": 1,
-    "member2": 0,
+    "member2": 1,
     "member3": 1
   },
   "area2": {
     "member1": 1,
     "member2": 0,
     "member3": 0
+  },
+  "area3": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area4": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area5": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area6": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area7": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area8": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area9": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area10": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area11": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area12": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area13": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area14": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area15": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area16": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area17": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area18": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area19": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area20": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area21": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area22": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area23": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area24": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area25": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area26": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area27": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area28": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area29": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area30": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area31": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area32": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area33": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area34": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area35": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area36": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area37": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area38": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area39": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area40": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area41": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area42": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area43": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area44": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area45": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area46": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area47": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area48": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area49": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area50": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area51": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area52": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area53": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area54": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area55": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area56": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area57": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area58": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area59": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area60": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area61": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area62": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area63": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area64": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area65": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area66": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area67": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area68": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area69": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area70": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area71": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area72": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area73": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area74": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area75": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area76": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area77": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area78": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  },
+  "area79": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area80": {
+    "member1": 1,
+    "member2": 1,
+    "member3": 1
   }
 }
