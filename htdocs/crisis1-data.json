@@ -1,0 +1,15 @@
+{
+  "id": 11,
+  "title": "Crisis A",
+  "note": "hackers attack",
+  "area1": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 1
+  },
+  "area2": {
+    "member1": 1,
+    "member2": 0,
+    "member3": 0
+  }
+}
